@@ -1,0 +1,38 @@
+binance_api_key                = "ENTER BINANCE API KEY HERE"
+binance_secret_key             = "ENTER BINANCE SECRET KEY HERE"
+twilio_account_sid             = "ENTER TWILIO SID HERE"
+twilio_auth_token              = "ENTER TWILIO AUTH TOKEN HERE"
+twilio_bot_phonenumber         = "ENTER TWILIO BOT PHONE NUMBER HERE (+15823262015)"
+my_cell_number                 = "ENTER YOUR CELL PHONE NUMBER HERE (+12523459832)"
+
+spot_rake             		            = True
+spot_rake_percent    		            = 0.05
+spot_rake_threshold_percent             = 0.5
+spot_rake_time        		            = 0.3
+spot_rake_blacklist    		            = "HNT"
+
+margin_cross_rake     	     	        = True
+margin_cross_move_asset_on_repay        = True
+margin_cross_rake_percent   	        = 0.1
+margin_cross_rake_threshold_percent     = 0.5
+margin_cross_rake_time        		    = 58
+margin_cross_rake_blacklist    	        = ""
+
+margin_isolated_rake   		            = True
+margin_isolated_move_asset_on_repay     = True
+margin_isolated_rake_percent		    = 0.1
+margin_isolated_rake_threshold_percent  = 0.5
+margin_isolated_rake_time     		    = 56
+margin_isolated_rake_blacklist 	        = ""
+
+futures_isolated_rake           		= True
+futures_isolated_rake_percent  		    = 0.3
+futures_isolated_rake_threshold_percent = 0.75
+futures_isolated_rake_time      	    = 1
+futures_isolated_rake_blacklist  	    = ""
+futures_isolated_stop_in_profit_percent = 0.25
+
+futures_isolated_auto_deleverage_percent     = 50
+futures_isolated_deleverage_quantity_percent = 25
+
+rake_tip_percent = 1

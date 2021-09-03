@@ -1,0 +1,13 @@
+dist
+build
+logs
+error_logs
+
+__pycache__
+
+*.vscode
+*.pyc
+*.code-workspace
+*.json
+*.spec
+*lnk
